@@ -2857,7 +2857,7 @@ li.current {
 @media only screen and (max-width: 767px) {
 
 	.navbar .nav > li > a {
-		color: #666;
+		color: #ffffff;
 		border-top:4px solid transparent;
 		text-shadow: none;
 		font-size: 12px;

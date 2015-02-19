@@ -102,19 +102,19 @@
                             </div>
                         </div>
 
-                                     <div class="col-lg-offset-1 col-sm-2 col-md-2 hidden-sm hidden-md" style="position: relative; left: 20px;">
+                        <div class="col-lg-offset-1 col-sm-2 col-md-2 hidden-sm hidden-md hidden-xs" style="position: relative; left: 20px;">
 
-                    {% if user.is_authenticated %}
+                            {% if user.is_authenticated %}
 
-                        <h3 style="color:#ffffff">Hello, {{ user.username }}!</h3>
-                        <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
+                                <h3 style="color:#ffffff">Hello, {{ user.username }}!</h3>
+                                <a href="{% url 'desktop:logout' %}"><font color="white">Logout</font></a><br>
 
-                    {% else %}
-                        <a href="{% url 'desktop:register' %}">Register Here</a><br>
-                        <a href="{% url 'desktop:login' %}">Login</a><br>
-                    {% endif %}
+                            {% else %}
+                                <a href="{% url 'desktop:register' %}">Register Here</a><br>
+                                <a href="{% url 'desktop:login' %}">Login</a><br>
+                            {% endif %}
 
-                </div>
+                        </div>
 
                     </div>
 
