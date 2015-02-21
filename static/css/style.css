@@ -15,7 +15,7 @@
 body {
 	font-family: 'Droid Sans';
 	background: url(../img/tbg3.png); /* Old browsers */
-	color: #888888;
+	color: #ffffff;
 	font-size: 12px;
 }
 
@@ -365,7 +365,7 @@ header {
 	width: 0px;
 	color: #ffffff;
 	border: none;
-	background: transparent url(../img/search-ico-alt.png) no-repeat 5px center;
+	background:  #ffffff url(../img/search-ico-alt.png) no-repeat 5px center;
 	border-bottom: 1px solid transparent;
 	-webkit-box-shadow: none;
 	   -moz-box-shadow: none;
@@ -393,7 +393,7 @@ header {
 
 .search input:focus{
 	width: 200px;
-	color: #ffffff;
+	color: #002a80;
 	outline: none !important;
 	border-bottom: 1px solid #646464;
 	-webkit-box-shadow: none;
