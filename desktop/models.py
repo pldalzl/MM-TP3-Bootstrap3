@@ -47,7 +47,7 @@ class QQuestion(models.Model):
         (1, 'General'),
         (2, 'PCR & Primer'),
         (3, 'Restriction Mapping'),
-        (4, 'Data Calculations'),
+        (4, 'Laboratory Calculations'),
     )
     number = models.AutoField(primary_key=True)
     topic = models.IntegerField(choices=TOPICS_CHOICES, default=1)

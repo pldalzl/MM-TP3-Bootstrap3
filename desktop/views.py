@@ -389,7 +389,7 @@ def dataquizzes(request):
 
     context_dict['questions'] = generalquestions
     context_dict['answers'] = generalanswers
-    context_dict['title'] ='Data Calculations'
+    context_dict['title'] ='Laboratory Calculations'
     return render_to_response('quizzes/quizzes.html',context_dict,context)
 
 
